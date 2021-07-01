@@ -1,5 +1,5 @@
 body{
-    background: url(../img3/background.jpg) no-repeat center center fixed;
+    background: url(../img/background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -27,7 +27,7 @@ ul{
 }
 
 .user-img img{
-    height: 50px;
+    height: 150px;
 }
 
 .form-group input{
@@ -99,13 +99,13 @@ body {
 }
 
 .img-1 {
-    background-image: url(../img3/img-1.jpg);
+    background-image: url(../img/img-1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-2 {
-    background-image: url(../img3/img-2.jpg);
+    background-image: url(../img/img-2.jpg);
     background-size: cover;
     background-position: center;
 }
