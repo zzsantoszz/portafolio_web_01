@@ -1,0 +1,111 @@
+body{
+    background: url(../img3/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul{
+    list-style:none;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top:50%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color:#3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.user-img{
+    margin-top: -20px;
+    margin-bottom: 35px;
+    text-align: right;
+}
+
+.user-img img{
+    height: 50px;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f09c";
+}
+
+button{
+    width: 98%;
+    margin: 1px 0 5px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: #f0f0f0;
+}
+
+:root {
+    --dark: #16191C;
+    --dark-x: #1E2126; 
+    --light: #ffffff;
+}
+/*
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+*/
+.text-light { color: var(--light) !important; }
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color: var(--dark-x); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
+
+.img-1 {
+    background-image: url(../img3/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url(../img3/img-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
